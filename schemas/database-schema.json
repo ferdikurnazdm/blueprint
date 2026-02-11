@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Database Settings Schema",
+  "type": "object",
+  "properties": {
+    "DatabaseSettings": {
+      "type": "object",
+      "properties": {
+        "AppConnectionString": {
+          "type": "string",
+          "description": "Veritabanı bağlantı cümlesi (Connection String)."
+        },
+        "ConnectionStringStatus": {
+          "type": "integer",
+          "enum": [0, 1],
+          "description": "Bağlantı durumu: 0=Kriptosuz, 1=Kriptolu"
+        }
+      },
+      "required": ["AppConnectionString", "ConnectionStringStatus"]
+    }
+  },
+  "required": ["DatabaseSettings"]
+}

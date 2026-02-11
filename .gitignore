@@ -1,0 +1,42 @@
+## [ .NET ÖZEL ]
+bin/
+obj/
+out/
+[Log]/
+logs/
+
+## [ VS CODE ÖZEL ]
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+## [ KULLANICI ÖZEL & GÜVENLİK ]
+# Bağlantı dizeleri ve şifreler içerebileceği için bu dosyaları git'e atma
+appsettings.json
+appsettings.*.json
+*.user
+*.userosscache
+*.sln.doccache
+.env
+secrets.json
+
+## [ VISUAL STUDIO ÖZEL ]
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.doccache
+
+## [ DOCKER & DİĞER ]
+.dockerignore
+dist/
+node_modules/
+npm-debug.log*
+
+## [ İŞLETİM SİSTEMİ ]
+Thumbs.db
+.DS_Store
+desktop.ini
