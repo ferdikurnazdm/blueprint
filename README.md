@@ -7,5 +7,5 @@ This repository is a centralized JSON Schema library designed to eliminate confi
 Add the $schema property to your JSON file:
 
 {
-  "$schema": "https://raw.githubusercontent.com/USER_NAME/blueprint/main/schemas/your-schema.json"
+  "$schema": "https://raw.githubusercontent.com/ferdikurnazdm/blueprint/refs/heads/main/schemas/your-schema.json"
 }
